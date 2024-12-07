@@ -1,0 +1,117 @@
+
+body{
+    background-image: url();
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    colour : rgb(156, 37, 37) 
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header{
+    
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(63, 53, 11);
+}
+.logo{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+nav ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+   
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    font-family: cursive;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(230, 217, 199);
+    font-size: larger;
+}
+nav ul li a:hover {
+    
+    color: rgb(221, 199, 169);
+}
+
+
+
+.hero {
+    background-image: url('/images/Grocery/themeFruit.webp');
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0d504e;
+    font-style: ;
+    font-size:  x-large;
+    font-weight: bolder;
+}
+.inhero{
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(23, 112, 105);
+}
+
+
+.product-grid {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.product{
+    font-style: revert;
+    text-align: center;
+    border: 4px solid rgb(8, 95, 8);
+    border-radius: 12px;
+
+}
+#products h2{
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+}
+#products h4{
+    text-align: center;
+    font-style:oblique;
+}
+.product img{
+    height:150px;
+    width:100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(95, 129, 25) ;
+    text-align: center;
+    padding:20px;
+    font-style:normal;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 3px solid green;
+    border-radius: 6px;
+
+
+}
